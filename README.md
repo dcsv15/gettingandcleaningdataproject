@@ -46,8 +46,10 @@ Explanation of contents
 This file describes a brief explanation of what run_analysis.R does and how mean_and_std and tidy_dataset files are created
 Please see CodeBook.MD for more details.
 
-Result Files: A Results folder is created for following 2 files. 
+Result Files: 
+A Results folder is created for following 2 files. 
+
 1)The mean and std results saved into activity_mean_and_std.csv
-2)The tidy dataset saved into activity_tidy_dataset.csv
+2)The tidy dataset saved into activity_tidy_dataset.csv (also an alternate .txt file also available)
 
 *Note: could not add the input dataset to GitHub as it expects files to be smaller than 25MB

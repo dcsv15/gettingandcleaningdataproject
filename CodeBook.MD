@@ -3,17 +3,29 @@
 ##run_analysis.R
 
 •This Program script downloads data needed for this exercise from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 •The script unzips the file if it has not been already uncompressed by checking if 'UCI HAR Dataset' already exists or not
+
 •The script creates results folder if it does not exist. All output result files are stored in this folder
+
 •It loads features.txt used for columns
+
 •loads X_train.txt, y_train.txt, subject_train.txt, X_train contains the data using the feature data set as columns, y_train contains the activity labels
+
 •The file subject_train contains the ids
+
 •The script loads and appends test dataset using X_test.txt, y_test.txt, subject_test.txt
+
 •X_test contains the data using the feature data set as columns, y_test contains the activity labels and subject_test contains the ids
+
 •The script appends train and test data to merge both data sets and rearrange the data using id
+
 •It loads activity_labels.txt, changes the data activity row to use the activity labels
+
 •In the results folder, the program saves the mean and std into activity_mean_and_std.csv
+
 •In the results folder, the program saves the tidy dataset into activity_tidy_dataset.csv
+
 
 ##activity_mean_and_std.csv
 
@@ -103,7 +115,7 @@ All variables:
 • fBodyBodyGyroJerkMag.meanFreq..
 
 
-activity_tidy_dataset.csv
+##activity_tidy_dataset.csv
 
 This another result file contains 181 rows (including header) and 82 columns that includes enumeration column in a csv format
 

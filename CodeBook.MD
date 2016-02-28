@@ -32,33 +32,62 @@
 •This one of the results file contains 1 0300 (including header) rows and 82 columns (including enumeration column) in a default csv format
 
 All variables:
+---------------
+
 • id
+
 • activity 
+
 • tBodyAcc.std...X 
+
 • tBodyAcc.std...Y 
+
 • tBodyAcc.std...Z 
+
 • tGravityAcc.std...X
+
 • tGravityAcc.std...Y
+
 • tGravityAcc.std...Z
+
 • tBodyAccJerk.std...X 
+
 • tBodyAccJerk.std...Y 
+
 • tBodyAccJerk.std...Z 
+
 • tBodyGyro.std...X
+
 • tBodyGyro.std...Y
+
 • tBodyGyro.std...Z
+
 • tBodyGyroJerk.std...X
+
 • tBodyGyroJerk.std...Y
+
 • tBodyGyroJerk.std...Z
+
 • tBodyAccMag.std..
+
 • tGravityAccMag.std.. 
+
 • tBodyAccJerkMag.std..
+
 • tBodyGyroMag.std..
+
 • tBodyGyroJerkMag.std..
+
 • fBodyAcc.std...X 
+
 • fBodyAcc.std...Y 
+
 • fBodyAcc.std...Z 
+
 • fBodyAccJerk.std...X 
+
 • fBodyAccJerk.std...Y 
+
 • fBodyAccJerk.std...Z 
 • fBodyGyro.std...X
 • fBodyGyro.std...Y

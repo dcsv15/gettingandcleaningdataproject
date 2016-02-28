@@ -1,6 +1,6 @@
 ############################################################################### 
 # Course Project: Getting-and-Cleaning-Data Week 4 project assignment
-# Author: Vinay 
+# Author: dcsv15 
 # Date : 02/27/2016
 #
 #Project Assignment:
@@ -128,5 +128,17 @@ data$activity <- factor(data$activity, levels=activity_labels$V1, labels=activit
 activity_tidy_dataset <- ddply(activity_mean_and_std, .(id, activity), .fun=function(x){ colMeans(x[,-c(1:2)]) }) 
 colnames(activity_tidy_dataset)[-c(1:2)] <- paste(colnames(activity_tidy_dataset)[-c(1:2)], "_mean", sep="") 
 saveresults(activity_tidy_dataset,"activity_tidy_dataset") 
+
+
+#This alternate additional method to create a tidy dataset text result file instead of csv 
+#save the resulting data in the indicated folder 
+saveresultstxt <- function (data,name){ 
+	print(paste("saving results", name)) 
+	file <- paste(resultsfolder, "/", name,".txt" ,sep="") 
+	
+	write.table(data,file, row.name = FALSE)
+} 
+
+saveresultstxt(activity_tidy_dataset,"activity_tidy_dataset") 
 
 #End of script

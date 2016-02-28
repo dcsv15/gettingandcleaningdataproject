@@ -1,4 +1,4 @@
-# gettingandcleaningdataproject
+# README.md
 
 Coursera: Getting and Cleaning Data Course, Week 4 - Project Assignment
 
@@ -35,7 +35,7 @@ Creates a second, independent tidy data set with the average of each variable fo
 
 
 Explanation of contents
-
+-------------------------
 •'run_analysis.R': 
  This scriot downloads all the required data files from above hyperlinks to complete this assignment and 
  creates a big file activity_mean_and_std.csv and a small file activity_tidy_dataset.csv 

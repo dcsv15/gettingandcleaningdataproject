@@ -1,6 +1,7 @@
 #CodeBook.MD
 
-run_analysis.R
+##run_analysis.R
+
 •This Program script downloads data needed for this exercise from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 •The script unzips the file if it has not been already uncompressed by checking if 'UCI HAR Dataset' already exists or not
 •The script creates results folder if it does not exist. All output result files are stored in this folder
@@ -14,7 +15,8 @@ run_analysis.R
 •In the results folder, the program saves the mean and std into activity_mean_and_std.csv
 •In the results folder, the program saves the tidy dataset into activity_tidy_dataset.csv
 
-activity_mean_and_std.csv
+##activity_mean_and_std.csv
+
 •This one of the results file contains 1 0300 (including header) rows and 82 columns (including enumeration column) in a default csv format
 
 All variables:
